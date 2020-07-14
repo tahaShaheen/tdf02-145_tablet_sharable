@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Chotu Remote</string>
+    <string name="tab_text_1">Expressions</string>
+    <string name="tab_text_2">Locomotion</string>
+    <string name="tab_text_3">Speaking</string>
+
+    <string name="happy">Happy</string>
+    <string name="sad">Sad</string>
+    <string name="angry">Angry</string>
+
+    <string name="PITCH_SLIDER_INFO">Voice pitch at </string>
+
+    <string name="empty"></string>
+
+    <string name="HI">Hi</string>
+    <string name="HELLO">Hello</string>
+    <string name="HOW_ARE_YOU">How are you?</string>
+    <string name="WHATS_YOUR_NAME">What is your name?</string>
+    <string name="MY_NAME_IS">My name is Robo-Chotu</string>
+    <string name="IM_YOUR_FRIEND">I am your friend</string>
+    <string name="BYE">Bye Bye</string>
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+
+
+    <string name="editTextHint">Type here </string>
+
+    <string name="CONNECTION_TO_DEVICE_SUCCESSFUL">Bluetooth connected successfully</string>
+    <string name="CONNECTION_TO_DEVICE_UNSUCCESSFUL">Could not establish connection</string>
+    <string name="NO_PAIRED_DEVICES">You have no paired Bluetooth devices</string>
+    <string name="PARTICULAR_DEVICE_NOT_PAIRED">The body HC-05 is not paired</string>
+
+
+
+    <string name="BT_STATE_OFF_TEXT">Bluetooth is off</string>
+    <string name="BT_STATE_ON_TEXT">Bluetooth is on</string>
+    <string name="BT_STATE_TURNING_OFF_TEXT">Bluetooth is turning off...</string>
+    <string name="BT_STATE_TURNING_ON_TEXT">Bluetooth is turning on...</string>
+
+    <string name="BT_CONNECTION_STATE_CONNECTED">Connected to body</string>
+    <string name="BT_CONNECTION_STATE_CONNECTING">Connecting to body...</string>
+    <string name="BT_CONNECTION_STATE_DISCONNECTED">Disconnected from body</string>
+    <string name="BT_CONNECTION_STATE_DISCONNECTING">Disconnecting from body...</string>
+
+
+    <string name="MAC_ADDRESS">00:18:E4:34:F0:E2</string>
+    <string name="TESTING_MAC_ADDRESS_1">00:18:E5:03:8F:A1</string>
+    <string name="TESTING_MAC_ADDRESS_2">00:18:E4:40:00:06</string>
+
+    <!--UNITY OBJECT NAMES-->
+    <string name="MAIN_CAMERA_OBJECT">Main Camera</string>
+    <string name="MOUTH_OBJECT">mouth</string>
+    <string name="EYEBROWS_OBJECT">eyebrows</string>
+    <string name="EYELIDS_OBJECT">eyelids</string>
+    <string name="TEAR_OBJECT">tear</string>
+    <string name="OUCH_ZONE">ouch_zone</string>
+
+    <!--UNITY FUNCTION NAMES-->
+    <string name="CHANGE_BACKGROUND_COLOR_FUNCTION">ChangeBackgroundColor</string>
+    <string name="SET_EMOTION_FUNCTION">SetEmotion</string>
+    <string name="SET_SPEAKING_FUNCTION">SetSpeaking</string>
+    <string name="SET_EYE_POKE_ENABLED_STATE_FUNCTION">SetEyePokeEnabledState</string>
+    <string name="GO_TO_SLEEP_FUNCTION">GoToSleep</string>
+
+    <!--UNITY FUNCTION FIXED ARGUMENTS-->
+    <string name="START_SPEAKING">START</string>
+    <string name="STOP_SPEAKING">STOP</string>
+    <string name="TRUE">TRUE</string>
+    <string name="FALSE">FALSE</string>
+</resources>
+

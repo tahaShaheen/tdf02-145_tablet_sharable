@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['mac_5faddress_138',['MAC_ADDRESS',['../db/d54/classcom_1_1unity3d_1_1player_1_1_unity_player_activity.html#a93ed58eff04a6adf674377330eaf17be',1,'com::unity3d::player::UnityPlayerActivity']]],
+  ['maincameraobject_139',['mainCameraObject',['../db/d54/classcom_1_1unity3d_1_1player_1_1_unity_player_activity.html#a5a0f87155d60987c110dedfa52e09fb9',1,'com::unity3d::player::UnityPlayerActivity']]],
+  ['mbtstatebroadcastreceiver_140',['mBTStateBroadcastReceiver',['../db/d54/classcom_1_1unity3d_1_1player_1_1_unity_player_activity.html#a330876a206f28ea4b88f1ad528f7779c',1,'com::unity3d::player::UnityPlayerActivity']]],
+  ['mcomponentname_141',['mComponentName',['../db/d54/classcom_1_1unity3d_1_1player_1_1_unity_player_activity.html#a5267e8b042ddf7b3bfe825aabd029e42',1,'com::unity3d::player::UnityPlayerActivity']]],
+  ['mconnectedthread_142',['mConnectedThread',['../d3/d09/classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service.html#a9efeb415e66f2546222bab82732cf489',1,'com::unity3d::player::MyBluetoothService']]],
+  ['mconnectthread_143',['mConnectThread',['../d3/d09/classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service.html#a13a127749bf8c7a613db326eab411b42',1,'com::unity3d::player::MyBluetoothService']]],
+  ['mcontext_144',['mContext',['../d3/d09/classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service.html#a1f2c2b64f295ad5a140117c80badf1a3',1,'com::unity3d::player::MyBluetoothService']]],
+  ['mdevicepolicymanager_145',['mDevicePolicyManager',['../db/d54/classcom_1_1unity3d_1_1player_1_1_unity_player_activity.html#acc096e5038ce1c3b4fafe35f01f8be56',1,'com::unity3d::player::UnityPlayerActivity']]],
+  ['mmdevice_146',['mmDevice',['../d3/d09/classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service.html#acbeff244a484a9612a10b3e4593a6f06',1,'com::unity3d::player::MyBluetoothService']]],
+  ['mminstream_147',['mmInStream',['../de/dde/classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connected_thread.html#a569c0ad0a8aa0f9b9aad5d9040fd69f7',1,'com::unity3d::player::MyBluetoothService::ConnectedThread']]],
+  ['mmoutstream_148',['mmOutStream',['../de/dde/classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connected_thread.html#a6761edb080fb43766ebecc6c286a7111',1,'com::unity3d::player::MyBluetoothService::ConnectedThread']]],
+  ['mmsocket_149',['mmSocket',['../d4/d4c/classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connect_thread.html#a11579fb62ae8dd5e0ac2a95239cc62a7',1,'com.unity3d.player.MyBluetoothService.ConnectThread.mmSocket()'],['../de/dde/classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connected_thread.html#a6dde6170b28f4f03c13830fbdbaa5840',1,'com.unity3d.player.MyBluetoothService.ConnectedThread.mmSocket()']]],
+  ['mouthobject_150',['mouthObject',['../db/d54/classcom_1_1unity3d_1_1player_1_1_unity_player_activity.html#a0b765692527229f87cea82328946886a',1,'com::unity3d::player::UnityPlayerActivity']]],
+  ['mprogressdialog_151',['mProgressDialog',['../d3/d09/classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service.html#a1f5fa22394eccd230fd326300f28d2ea',1,'com::unity3d::player::MyBluetoothService']]],
+  ['munityplayer_152',['mUnityPlayer',['../db/d54/classcom_1_1unity3d_1_1player_1_1_unity_player_activity.html#a3ed23ff81ec15adc2f33698fd853d6e2',1,'com::unity3d::player::UnityPlayerActivity']]],
+  ['my_5fuuid_153',['MY_UUID',['../db/d54/classcom_1_1unity3d_1_1player_1_1_unity_player_activity.html#aa6939b848cf96ad7e7017024c9321907',1,'com::unity3d::player::UnityPlayerActivity']]],
+  ['mybluetoothservice_154',['myBluetoothService',['../db/d54/classcom_1_1unity3d_1_1player_1_1_unity_player_activity.html#aee725bb7903693e910af2267bef831fe',1,'com::unity3d::player::UnityPlayerActivity']]]
+];

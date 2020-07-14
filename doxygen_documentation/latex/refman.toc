@@ -1,0 +1,133 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}T\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}D\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}F02-\/145 Tablet}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}J\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}A\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}VA}{1}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}Exporting to J\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}A\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}V\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}A inside Unity}{1}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}Opening in Android Studio}{1}{subsection.1.2.2}% 
+\contentsline {subsubsection}{\numberline {1.2.2.1}Note}{2}{subsubsection.1.2.2.1}% 
+\contentsline {subsubsection}{\numberline {1.2.2.2}Author}{2}{subsubsection.1.2.2.2}% 
+\contentsline {subsubsection}{\numberline {1.2.2.3}Version}{2}{subsubsection.1.2.2.3}% 
+\contentsline {chapter}{\numberline {2}Namespace Index}{3}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Packages}{3}{section.2.1}% 
+\contentsline {chapter}{\numberline {3}Hierarchical Index}{5}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Class Hierarchy}{5}{section.3.1}% 
+\contentsline {chapter}{\numberline {4}Class Index}{7}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Class List}{7}{section.4.1}% 
+\contentsline {chapter}{\numberline {5}File Index}{9}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}File List}{9}{section.5.1}% 
+\contentsline {chapter}{\numberline {6}Namespace Documentation}{11}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Package com}{11}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Package com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}unity3d}{11}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Package com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}unity3d.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}player}{11}{section.6.3}% 
+\contentsline {chapter}{\numberline {7}Class Documentation}{13}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}unity3d.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}player.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Bluetooth\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Service.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Connected\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Thread Class Reference}{13}{section.7.1}% 
+\contentsline {subsection}{\numberline {7.1.1}Detailed Description}{14}{subsection.7.1.1}% 
+\contentsline {subsection}{\numberline {7.1.2}Constructor \& Destructor Documentation}{14}{subsection.7.1.2}% 
+\contentsline {subsubsection}{\numberline {7.1.2.1}ConnectedThread()}{14}{subsubsection.7.1.2.1}% 
+\contentsline {subsection}{\numberline {7.1.3}Member Function Documentation}{15}{subsection.7.1.3}% 
+\contentsline {subsubsection}{\numberline {7.1.3.1}cancel()}{15}{subsubsection.7.1.3.1}% 
+\contentsline {subsubsection}{\numberline {7.1.3.2}run()}{15}{subsubsection.7.1.3.2}% 
+\contentsline {subsubsection}{\numberline {7.1.3.3}write()}{16}{subsubsection.7.1.3.3}% 
+\contentsline {subsection}{\numberline {7.1.4}Member Data Documentation}{16}{subsection.7.1.4}% 
+\contentsline {subsubsection}{\numberline {7.1.4.1}mmInStream}{16}{subsubsection.7.1.4.1}% 
+\contentsline {subsubsection}{\numberline {7.1.4.2}mmOutStream}{17}{subsubsection.7.1.4.2}% 
+\contentsline {subsubsection}{\numberline {7.1.4.3}mmSocket}{17}{subsubsection.7.1.4.3}% 
+\contentsline {section}{\numberline {7.2}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}unity3d.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}player.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Bluetooth\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Service.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Connect\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Thread Class Reference}{17}{section.7.2}% 
+\contentsline {subsection}{\numberline {7.2.1}Detailed Description}{18}{subsection.7.2.1}% 
+\contentsline {subsection}{\numberline {7.2.2}Constructor \& Destructor Documentation}{18}{subsection.7.2.2}% 
+\contentsline {subsubsection}{\numberline {7.2.2.1}ConnectThread()}{18}{subsubsection.7.2.2.1}% 
+\contentsline {subsection}{\numberline {7.2.3}Member Function Documentation}{19}{subsection.7.2.3}% 
+\contentsline {subsubsection}{\numberline {7.2.3.1}cancel()}{19}{subsubsection.7.2.3.1}% 
+\contentsline {subsubsection}{\numberline {7.2.3.2}run()}{19}{subsubsection.7.2.3.2}% 
+\contentsline {subsection}{\numberline {7.2.4}Member Data Documentation}{20}{subsection.7.2.4}% 
+\contentsline {subsubsection}{\numberline {7.2.4.1}mmSocket}{20}{subsubsection.7.2.4.1}% 
+\contentsline {section}{\numberline {7.3}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}unity3d.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}player.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Admin\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Receiver Class Reference}{20}{section.7.3}% 
+\contentsline {subsection}{\numberline {7.3.1}Detailed Description}{21}{subsection.7.3.1}% 
+\contentsline {section}{\numberline {7.4}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}unity3d.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}player.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Bluetooth\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Service Class Reference}{21}{section.7.4}% 
+\contentsline {subsection}{\numberline {7.4.1}Detailed Description}{22}{subsection.7.4.1}% 
+\contentsline {subsection}{\numberline {7.4.2}Constructor \& Destructor Documentation}{22}{subsection.7.4.2}% 
+\contentsline {subsubsection}{\numberline {7.4.2.1}MyBluetoothService()}{22}{subsubsection.7.4.2.1}% 
+\contentsline {subsection}{\numberline {7.4.3}Member Function Documentation}{23}{subsection.7.4.3}% 
+\contentsline {subsubsection}{\numberline {7.4.3.1}breakUpString()}{23}{subsubsection.7.4.3.1}% 
+\contentsline {subsubsection}{\numberline {7.4.3.2}cancelThreads()}{23}{subsubsection.7.4.3.2}% 
+\contentsline {subsubsection}{\numberline {7.4.3.3}connected()}{24}{subsubsection.7.4.3.3}% 
+\contentsline {subsubsection}{\numberline {7.4.3.4}messageProcessorFunction()}{24}{subsubsection.7.4.3.4}% 
+\contentsline {subsubsection}{\numberline {7.4.3.5}showToast()}{25}{subsubsection.7.4.3.5}% 
+\contentsline {subsubsection}{\numberline {7.4.3.6}startClient()}{25}{subsubsection.7.4.3.6}% 
+\contentsline {subsubsection}{\numberline {7.4.3.7}write()}{26}{subsubsection.7.4.3.7}% 
+\contentsline {subsection}{\numberline {7.4.4}Member Data Documentation}{26}{subsection.7.4.4}% 
+\contentsline {subsubsection}{\numberline {7.4.4.1}bluetoothAdapter}{26}{subsubsection.7.4.4.1}% 
+\contentsline {subsubsection}{\numberline {7.4.4.2}mConnectedThread}{27}{subsubsection.7.4.4.2}% 
+\contentsline {subsubsection}{\numberline {7.4.4.3}mConnectThread}{27}{subsubsection.7.4.4.3}% 
+\contentsline {subsubsection}{\numberline {7.4.4.4}mContext}{27}{subsubsection.7.4.4.4}% 
+\contentsline {subsubsection}{\numberline {7.4.4.5}mmDevice}{28}{subsubsection.7.4.4.5}% 
+\contentsline {subsubsection}{\numberline {7.4.4.6}mProgressDialog}{28}{subsubsection.7.4.4.6}% 
+\contentsline {subsubsection}{\numberline {7.4.4.7}TAG}{28}{subsubsection.7.4.4.7}% 
+\contentsline {section}{\numberline {7.5}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}unity3d.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}player.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Unity\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Player\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Activity Class Reference}{29}{section.7.5}% 
+\contentsline {subsection}{\numberline {7.5.1}Detailed Description}{31}{subsection.7.5.1}% 
+\contentsline {subsection}{\numberline {7.5.2}Member Function Documentation}{31}{subsection.7.5.2}% 
+\contentsline {subsubsection}{\numberline {7.5.2.1}beginConnection()}{32}{subsubsection.7.5.2.1}% 
+\contentsline {subsubsection}{\numberline {7.5.2.2}emotionBackgroundColor()}{32}{subsubsection.7.5.2.2}% 
+\contentsline {subsubsection}{\numberline {7.5.2.3}onActivityResult()}{33}{subsubsection.7.5.2.3}% 
+\contentsline {subsubsection}{\numberline {7.5.2.4}onConfigurationChanged()}{34}{subsubsection.7.5.2.4}% 
+\contentsline {subsubsection}{\numberline {7.5.2.5}onCreate()}{34}{subsubsection.7.5.2.5}% 
+\contentsline {subsubsection}{\numberline {7.5.2.6}onDestroy()}{36}{subsubsection.7.5.2.6}% 
+\contentsline {subsubsection}{\numberline {7.5.2.7}onLowMemory()}{37}{subsubsection.7.5.2.7}% 
+\contentsline {subsubsection}{\numberline {7.5.2.8}onNewIntent()}{37}{subsubsection.7.5.2.8}% 
+\contentsline {subsubsection}{\numberline {7.5.2.9}onPause()}{38}{subsubsection.7.5.2.9}% 
+\contentsline {subsubsection}{\numberline {7.5.2.10}onResume()}{38}{subsubsection.7.5.2.10}% 
+\contentsline {subsubsection}{\numberline {7.5.2.11}onTrimMemory()}{39}{subsubsection.7.5.2.11}% 
+\contentsline {subsubsection}{\numberline {7.5.2.12}onWindowFocusChanged()}{39}{subsubsection.7.5.2.12}% 
+\contentsline {subsubsection}{\numberline {7.5.2.13}setEmotion()}{39}{subsubsection.7.5.2.13}% 
+\contentsline {subsubsection}{\numberline {7.5.2.14}settingsUpdate()}{41}{subsubsection.7.5.2.14}% 
+\contentsline {subsubsection}{\numberline {7.5.2.15}showToastMethod()}{42}{subsubsection.7.5.2.15}% 
+\contentsline {subsubsection}{\numberline {7.5.2.16}speakOut()}{42}{subsubsection.7.5.2.16}% 
+\contentsline {subsubsection}{\numberline {7.5.2.17}updateUnityCommandLineArguments()}{43}{subsubsection.7.5.2.17}% 
+\contentsline {subsection}{\numberline {7.5.3}Member Data Documentation}{44}{subsection.7.5.3}% 
+\contentsline {subsubsection}{\numberline {7.5.3.1}ADMIN\_INTENT}{44}{subsubsection.7.5.3.1}% 
+\contentsline {subsubsection}{\numberline {7.5.3.2}ANGRY}{44}{subsubsection.7.5.3.2}% 
+\contentsline {subsubsection}{\numberline {7.5.3.3}audioManager}{44}{subsubsection.7.5.3.3}% 
+\contentsline {subsubsection}{\numberline {7.5.3.4}backgroundColor}{45}{subsubsection.7.5.3.4}% 
+\contentsline {subsubsection}{\numberline {7.5.3.5}bluetoothAdapter}{45}{subsubsection.7.5.3.5}% 
+\contentsline {subsubsection}{\numberline {7.5.3.6}changeBackgroundColorFunction}{45}{subsubsection.7.5.3.6}% 
+\contentsline {subsubsection}{\numberline {7.5.3.7}eyebrowsObject}{45}{subsubsection.7.5.3.7}% 
+\contentsline {subsubsection}{\numberline {7.5.3.8}eyelidsObject}{46}{subsubsection.7.5.3.8}% 
+\contentsline {subsubsection}{\numberline {7.5.3.9}falseString}{46}{subsubsection.7.5.3.9}% 
+\contentsline {subsubsection}{\numberline {7.5.3.10}goToSleepFunction}{46}{subsubsection.7.5.3.10}% 
+\contentsline {subsubsection}{\numberline {7.5.3.11}handler}{46}{subsubsection.7.5.3.11}% 
+\contentsline {subsubsection}{\numberline {7.5.3.12}HAPPY}{47}{subsubsection.7.5.3.12}% 
+\contentsline {subsubsection}{\numberline {7.5.3.13}IDLE}{47}{subsubsection.7.5.3.13}% 
+\contentsline {subsubsection}{\numberline {7.5.3.14}MAC\_ADDRESS}{47}{subsubsection.7.5.3.14}% 
+\contentsline {subsubsection}{\numberline {7.5.3.15}mainCameraObject}{47}{subsubsection.7.5.3.15}% 
+\contentsline {subsubsection}{\numberline {7.5.3.16}mBTStateBroadcastReceiver}{48}{subsubsection.7.5.3.16}% 
+\contentsline {subsubsection}{\numberline {7.5.3.17}mComponentName}{48}{subsubsection.7.5.3.17}% 
+\contentsline {subsubsection}{\numberline {7.5.3.18}mDevicePolicyManager}{49}{subsubsection.7.5.3.18}% 
+\contentsline {subsubsection}{\numberline {7.5.3.19}mouthObject}{49}{subsubsection.7.5.3.19}% 
+\contentsline {subsubsection}{\numberline {7.5.3.20}mUnityPlayer}{49}{subsubsection.7.5.3.20}% 
+\contentsline {subsubsection}{\numberline {7.5.3.21}MY\_UUID}{50}{subsubsection.7.5.3.21}% 
+\contentsline {subsubsection}{\numberline {7.5.3.22}myBluetoothService}{50}{subsubsection.7.5.3.22}% 
+\contentsline {subsubsection}{\numberline {7.5.3.23}ouchZoneObject}{50}{subsubsection.7.5.3.23}% 
+\contentsline {subsubsection}{\numberline {7.5.3.24}REQUEST\_ENABLE\_BT}{51}{subsubsection.7.5.3.24}% 
+\contentsline {subsubsection}{\numberline {7.5.3.25}SAD}{51}{subsubsection.7.5.3.25}% 
+\contentsline {subsubsection}{\numberline {7.5.3.26}savedVolume}{51}{subsubsection.7.5.3.26}% 
+\contentsline {subsubsection}{\numberline {7.5.3.27}setEmotionFunction}{51}{subsubsection.7.5.3.27}% 
+\contentsline {subsubsection}{\numberline {7.5.3.28}setEyePokeEnabledStateFunction}{52}{subsubsection.7.5.3.28}% 
+\contentsline {subsubsection}{\numberline {7.5.3.29}setSpeakingFunction}{52}{subsubsection.7.5.3.29}% 
+\contentsline {subsubsection}{\numberline {7.5.3.30}startSpeaking}{52}{subsubsection.7.5.3.30}% 
+\contentsline {subsubsection}{\numberline {7.5.3.31}stopSpeaking}{52}{subsubsection.7.5.3.31}% 
+\contentsline {subsubsection}{\numberline {7.5.3.32}SURPRISED}{53}{subsubsection.7.5.3.32}% 
+\contentsline {subsubsection}{\numberline {7.5.3.33}TAG}{53}{subsubsection.7.5.3.33}% 
+\contentsline {subsubsection}{\numberline {7.5.3.34}tearObject}{53}{subsubsection.7.5.3.34}% 
+\contentsline {subsubsection}{\numberline {7.5.3.35}TESTING}{53}{subsubsection.7.5.3.35}% 
+\contentsline {subsubsection}{\numberline {7.5.3.36}textToSpeech}{54}{subsubsection.7.5.3.36}% 
+\contentsline {subsubsection}{\numberline {7.5.3.37}trueString}{54}{subsubsection.7.5.3.37}% 
+\contentsline {subsubsection}{\numberline {7.5.3.38}voiceYourEmotion}{54}{subsubsection.7.5.3.38}% 
+\contentsline {chapter}{\numberline {8}File Documentation}{55}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Admin\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Receiver.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{55}{section.8.1}% 
+\contentsline {subsection}{\numberline {8.1.1}Detailed Description}{55}{subsection.8.1.1}% 
+\contentsline {section}{\numberline {8.2}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Bluetooth\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Service.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{55}{section.8.2}% 
+\contentsline {subsection}{\numberline {8.2.1}Detailed Description}{56}{subsection.8.2.1}% 
+\contentsline {section}{\numberline {8.3}R\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}E\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}A\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}D\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}M\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}E.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}md File Reference}{56}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Unity\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Player\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Activity.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{56}{section.8.4}% 
+\contentsline {subsection}{\numberline {8.4.1}Detailed Description}{56}{subsection.8.4.1}% 
+\contentsline {chapter}{Index}{57}{section*.35}% 

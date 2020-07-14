@@ -1,0 +1,471 @@
+\hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service}{}\doxysection{com.\+unity3d.\+player.\+My\+Bluetooth\+Service Class Reference}
+\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service}\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+
+
+Handles everything Bluetooth.  
+
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connected_thread}{Connected\+Thread}}
+\begin{DoxyCompactList}\small\item\em Thread that manages a Bluetooth connection. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connect_thread}{Connect\+Thread}}
+\begin{DoxyCompactList}\small\item\em Client thread that initiates a Bluetooth connection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_ac59cfc8c90370876df17d1d39217c21e}{My\+Bluetooth\+Service}} (Context context)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+synchronized void \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_aacb38c12d862f2f1c36846227e539daa}{cancel\+Threads}} ()
+\begin{DoxyCompactList}\small\item\em Cancels any running threads. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a24290034e0c4dca145bf394ba6c0d23b}{start\+Client}} (Bluetooth\+Device device, U\+U\+ID uuid)
+\item 
+abstract void \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a02d505b0d0f3f856e47aee7dc4a56204}{show\+Toast}} (int resource\+ID)
+\begin{DoxyCompactList}\small\item\em Displays Toasts. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_ad116bc23ee609ae94bff66bbf992d1a7}{message\+Processor\+Function}} (String\mbox{[}$\,$\mbox{]} message\+Pieces)
+\begin{DoxyCompactList}\small\item\em Processes the instruction received. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_ad0a1a0566d4457b95be33c90a87a27ef}{write}} (byte\mbox{[}$\,$\mbox{]} out)
+\begin{DoxyCompactList}\small\item\em Writes to the any Bluetooth device. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connected_thread}{Connected\+Thread}} \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a9efeb415e66f2546222bab82732cf489}{m\+Connected\+Thread}}
+\begin{DoxyCompactList}\small\item\em Custom class \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connected_thread}{Connected\+Thread}} type object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Progress\+Dialog \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a1f5fa22394eccd230fd326300f28d2ea}{m\+Progress\+Dialog}}
+\begin{DoxyCompactList}\small\item\em A progress dialog. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Context \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a1f2c2b64f295ad5a140117c80badf1a3}{m\+Context}}
+\begin{DoxyCompactList}\small\item\em Reference to the Activity where the \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service}{My\+Bluetooth\+Service}} object instance is created. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a391928fec650a584a6fc4a88ecd2dbd7}{connected}} (Bluetooth\+Socket mm\+Socket, Bluetooth\+Device \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_acbeff244a484a9612a10b3e4593a6f06}{mm\+Device}})
+\item 
+String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a89c3f9ff428fb262a34fc6db1337995a}{break\+Up\+String}} (String message\+Stream)
+\begin{DoxyCompactList}\small\item\em Breaks up the String instruction received. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Bluetooth\+Adapter \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a2cde59a386eb51655442b95ae28c97f5}{bluetooth\+Adapter}}
+\begin{DoxyCompactList}\small\item\em A Bluetooth\+Adapter object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connect_thread}{Connect\+Thread}} \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a13a127749bf8c7a613db326eab411b42}{m\+Connect\+Thread}}
+\begin{DoxyCompactList}\small\item\em Custom class \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connect_thread}{Connect\+Thread}} type object. \end{DoxyCompactList}\item 
+Bluetooth\+Device \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_acbeff244a484a9612a10b3e4593a6f06}{mm\+Device}}
+\begin{DoxyCompactList}\small\item\em Represents a remote Bluetooth device. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a7e1fa17e5ffe90b814cba6b5cdc8ac9a}{T\+AG}} = \char`\"{}D\+E\+B\+U\+G\+\_\+\+B\+L\+U\+E\+T\+O\+O\+T\+H\+\_\+\+S\+E\+R\+V\+I\+CE\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Handles everything Bluetooth. 
+
+\begin{DoxyItemize}
+\item Starts up and maintains Bluetooth connections between devices \item Sends and handles reception of messages from connected devices \end{DoxyItemize}
+
+
+Definition at line 32 of file My\+Bluetooth\+Service.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_ac59cfc8c90370876df17d1d39217c21e}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_ac59cfc8c90370876df17d1d39217c21e}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!MyBluetoothService@{MyBluetoothService}}
+\index{MyBluetoothService@{MyBluetoothService}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{MyBluetoothService()}{MyBluetoothService()}}
+{\footnotesize\ttfamily com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+My\+Bluetooth\+Service (\begin{DoxyParamCaption}\item[{Context}]{context }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Context of the Activity that creates an object of the \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service}{My\+Bluetooth\+Service}} class\\
+\hline
+\end{DoxyParams}
+The constructor used to create an object of the \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service}{My\+Bluetooth\+Service}} class 
+
+Definition at line 80 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{80                                                \{}
+\DoxyCodeLine{81         \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a1f2c2b64f295ad5a140117c80badf1a3}{mContext}} = context;}
+\DoxyCodeLine{82         \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a2cde59a386eb51655442b95ae28c97f5}{bluetoothAdapter}} = BluetoothAdapter.getDefaultAdapter();}
+\DoxyCodeLine{83         \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_aacb38c12d862f2f1c36846227e539daa}{cancelThreads}}();}
+\DoxyCodeLine{84     \}}
+
+\end{DoxyCode}
+
+
+References com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+bluetooth\+Adapter, com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+cancel\+Threads(), and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Context.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a89c3f9ff428fb262a34fc6db1337995a}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a89c3f9ff428fb262a34fc6db1337995a}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!breakUpString@{breakUpString}}
+\index{breakUpString@{breakUpString}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{breakUpString()}{breakUpString()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+break\+Up\+String (\begin{DoxyParamCaption}\item[{String}]{message\+Stream }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Breaks up the String instruction received. 
+
+Uses the separator to break up the String instruction 
+\begin{DoxyParams}{Parameters}
+{\em message\+Stream} & the String instruction received \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A String array containing the String instruction received, but in pieces 
+\end{DoxyReturn}
+
+
+Definition at line 361 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{361                                                          \{}
+\DoxyCodeLine{362         String[] messagePieces = messageStream.split(\textcolor{stringliteral}{"\_"});}
+\DoxyCodeLine{363         \textcolor{keywordflow}{return} messagePieces;}
+\DoxyCodeLine{364     \}}
+
+\end{DoxyCode}
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+run().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_aacb38c12d862f2f1c36846227e539daa}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_aacb38c12d862f2f1c36846227e539daa}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!cancelThreads@{cancelThreads}}
+\index{cancelThreads@{cancelThreads}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{cancelThreads()}{cancelThreads()}}
+{\footnotesize\ttfamily synchronized void com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+cancel\+Threads (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Cancels any running threads. 
+
+Cancels any threads attempting to create a Bluetooth\+Socket or any 
+
+Definition at line 90 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{90                                              \{}
+\DoxyCodeLine{91         Log.d(\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a7e1fa17e5ffe90b814cba6b5cdc8ac9a}{TAG}}, \textcolor{stringliteral}{"start"});}
+\DoxyCodeLine{92 }
+\DoxyCodeLine{93         \textcolor{comment}{// Cancel any thread attempting to make a connection //}}
+\DoxyCodeLine{94         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a13a127749bf8c7a613db326eab411b42}{mConnectThread}} != \textcolor{keyword}{null}) \{}
+\DoxyCodeLine{95             \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a13a127749bf8c7a613db326eab411b42}{mConnectThread}}.\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connect_thread_a0f99b35c3477e9dd8f488138c46abffb}{cancel}}();}
+\DoxyCodeLine{96             \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a13a127749bf8c7a613db326eab411b42}{mConnectThread}} = \textcolor{keyword}{null};}
+\DoxyCodeLine{97         \}}
+\DoxyCodeLine{98         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a9efeb415e66f2546222bab82732cf489}{mConnectedThread}} != \textcolor{keyword}{null}) \{}
+\DoxyCodeLine{99             \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a9efeb415e66f2546222bab82732cf489}{mConnectedThread}}.\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connected_thread_a335ab73236805287490620156880448c}{cancel}}();}
+\DoxyCodeLine{100             \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a9efeb415e66f2546222bab82732cf489}{mConnectedThread}} = \textcolor{keyword}{null};}
+\DoxyCodeLine{101         \}}
+\DoxyCodeLine{102     \}}
+
+\end{DoxyCode}
+
+
+References com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+cancel(), com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+cancel(), com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Connected\+Thread, com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Connect\+Thread, and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+T\+AG.
+
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+My\+Bluetooth\+Service().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a391928fec650a584a6fc4a88ecd2dbd7}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a391928fec650a584a6fc4a88ecd2dbd7}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!connected@{connected}}
+\index{connected@{connected}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{connected()}{connected()}}
+{\footnotesize\ttfamily void com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+connected (\begin{DoxyParamCaption}\item[{Bluetooth\+Socket}]{mm\+Socket,  }\item[{Bluetooth\+Device}]{mm\+Device }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Called to start a Thread to manages the Bluetooth connection
+
+
+\begin{DoxyParams}{Parameters}
+{\em mm\+Socket} & R\+F\+C\+O\+MM Bluetooth Socket object \\
+\hline
+{\em mm\+Device} & Bluetooth\+Device object \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 219 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{219                                                                                \{}
+\DoxyCodeLine{220         Log.d(\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a7e1fa17e5ffe90b814cba6b5cdc8ac9a}{TAG}}, \textcolor{stringliteral}{"connected: Starting."});}
+\DoxyCodeLine{221 }
+\DoxyCodeLine{222         \textcolor{comment}{// Start the thread to manage the connection and perform transmissions //}}
+\DoxyCodeLine{223         \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a9efeb415e66f2546222bab82732cf489}{mConnectedThread}} = \textcolor{keyword}{new} ConnectedThread(mmSocket);}
+\DoxyCodeLine{224 }
+\DoxyCodeLine{225         \textcolor{comment}{// Starts Thread //}}
+\DoxyCodeLine{226         \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a9efeb415e66f2546222bab82732cf489}{mConnectedThread}}.start();}
+\DoxyCodeLine{227     \}}
+
+\end{DoxyCode}
+
+
+References com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Connected\+Thread, and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+T\+AG.
+
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+run().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_ad116bc23ee609ae94bff66bbf992d1a7}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_ad116bc23ee609ae94bff66bbf992d1a7}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!messageProcessorFunction@{messageProcessorFunction}}
+\index{messageProcessorFunction@{messageProcessorFunction}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{messageProcessorFunction()}{messageProcessorFunction()}}
+{\footnotesize\ttfamily abstract void com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+message\+Processor\+Function (\begin{DoxyParamCaption}\item[{String\mbox{[}$\,$\mbox{]}}]{message\+Pieces }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Processes the instruction received. 
+
+\begin{DoxyItemize}
+\item I wanted to keep the message processing in the main Thread and keep the \mbox{\hyperlink{_my_bluetooth_service_8java}{My\+Bluetooth\+Service.\+java}} as free of these app specific \char`\"{}environmental factors\char`\"{} as possible \item So I made the \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_ad116bc23ee609ae94bff66bbf992d1a7}{message\+Processor\+Function()}} abstract \item Any function calls from it can now be done in the main Thread 
+\begin{DoxyParams}{Parameters}
+{\em message\+Pieces} & A String array containing the String instruction received, but in pieces \\
+\hline
+\end{DoxyParams}
+\end{DoxyItemize}
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+run().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a02d505b0d0f3f856e47aee7dc4a56204}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a02d505b0d0f3f856e47aee7dc4a56204}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!showToast@{showToast}}
+\index{showToast@{showToast}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{showToast()}{showToast()}}
+{\footnotesize\ttfamily abstract void com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+show\+Toast (\begin{DoxyParamCaption}\item[{int}]{resource\+ID }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Displays Toasts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em resource\+ID} & The resource ID of the String to be displayed in a Toast\\
+\hline
+\end{DoxyParams}
+Toasts only run on the main thread. This allows displaying of a Toast from another thread. By being an abstract method, it can be defined in the Main\+Activity which runs on the main thread. A method there, show\+Toast\+Method(), can then display the Toast. 
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+run().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a24290034e0c4dca145bf394ba6c0d23b}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a24290034e0c4dca145bf394ba6c0d23b}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!startClient@{startClient}}
+\index{startClient@{startClient}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{startClient()}{startClient()}}
+{\footnotesize\ttfamily void com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+start\+Client (\begin{DoxyParamCaption}\item[{Bluetooth\+Device}]{device,  }\item[{U\+U\+ID}]{uuid }\end{DoxyParamCaption})}
+
+Called to start a Bluetooth connection
+
+
+\begin{DoxyParams}{Parameters}
+{\em device} & Represents a remote Bluetooth device. A Bluetooth\+Device lets you create a connection with the respective device or query information about it, such as the name, address, class, and bonding state. \\
+\hline
+{\em uuid} & Universally Unique Identifier. U\+U\+I\+Ds are not tied to particular devices. They identify software services. You just need both sides to use the same one. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 110 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{110                                                                \{}
+\DoxyCodeLine{111         \textcolor{comment}{// progress dialog appears //}}
+\DoxyCodeLine{112         \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a1f5fa22394eccd230fd326300f28d2ea}{mProgressDialog}} = ProgressDialog.show(\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a1f2c2b64f295ad5a140117c80badf1a3}{mContext}}, \textcolor{stringliteral}{"Connecting Bluetooth"}}
+\DoxyCodeLine{113                 , \textcolor{stringliteral}{"Please Wait..."}, \textcolor{keyword}{true});}
+\DoxyCodeLine{114 }
+\DoxyCodeLine{115         \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a13a127749bf8c7a613db326eab411b42}{mConnectThread}} = \textcolor{keyword}{new} ConnectThread(device, uuid);}
+\DoxyCodeLine{116 }
+\DoxyCodeLine{117         \textcolor{comment}{// Starts Thread //}}
+\DoxyCodeLine{118         \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a13a127749bf8c7a613db326eab411b42}{mConnectThread}}.start();}
+\DoxyCodeLine{119     \}}
+
+\end{DoxyCode}
+
+
+References com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Connect\+Thread, com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Context, and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Progress\+Dialog.
+
+
+
+Referenced by com.\+unity3d.\+player.\+Unity\+Player\+Activity.\+begin\+Connection().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_ad0a1a0566d4457b95be33c90a87a27ef}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_ad0a1a0566d4457b95be33c90a87a27ef}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!write@{write}}
+\index{write@{write}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+write (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{out }\end{DoxyParamCaption})}
+
+
+
+Writes to the any Bluetooth device. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & Array of bytes\\
+\hline
+\end{DoxyParams}
+\begin{DoxyItemize}
+\item Called from the main activity \item Hands over the byte Array the Thread managing communication with the Bluetooth device \item Here for future use \end{DoxyItemize}
+
+
+Definition at line 391 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{391                                   \{}
+\DoxyCodeLine{392         \textcolor{comment}{//perform the write}}
+\DoxyCodeLine{393         \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a9efeb415e66f2546222bab82732cf489}{mConnectedThread}}.\mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connected_thread_add4d9897aac46b6aa84e2efda40cd47b}{write}}(out);}
+\DoxyCodeLine{394     \}}
+
+\end{DoxyCode}
+
+
+References com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Connected\+Thread, and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+write().
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a2cde59a386eb51655442b95ae28c97f5}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a2cde59a386eb51655442b95ae28c97f5}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!bluetoothAdapter@{bluetoothAdapter}}
+\index{bluetoothAdapter@{bluetoothAdapter}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{bluetoothAdapter}{bluetoothAdapter}}
+{\footnotesize\ttfamily final Bluetooth\+Adapter com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+bluetooth\+Adapter\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+A Bluetooth\+Adapter object. 
+
+A Bluetooth\+Adapter lets you perform fundamental Bluetooth tasks, such as initiate device discovery, query a list of bonded (paired) devices, instantiate a Bluetooth\+Device using a known M\+AC address, and create a Bluetooth\+Server\+Socket to listen for connection requests from other devices, and start a scan for Bluetooth LE devices. 
+
+Definition at line 44 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+My\+Bluetooth\+Service(), and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+run().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a9efeb415e66f2546222bab82732cf489}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a9efeb415e66f2546222bab82732cf489}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!mConnectedThread@{mConnectedThread}}
+\index{mConnectedThread@{mConnectedThread}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{mConnectedThread}{mConnectedThread}}
+{\footnotesize\ttfamily com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Connected\+Thread}
+
+
+
+Custom class \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connected_thread}{Connected\+Thread}} type object. 
+
+Extends \href{https://developer.android.com/reference/java/lang/Thread}{\texttt{ Thread}} 
+
+Definition at line 61 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+cancel\+Threads(), com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+connected(), and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+write().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a13a127749bf8c7a613db326eab411b42}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a13a127749bf8c7a613db326eab411b42}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!mConnectThread@{mConnectThread}}
+\index{mConnectThread@{mConnectThread}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{mConnectThread}{mConnectThread}}
+{\footnotesize\ttfamily com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Connect\+Thread\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Custom class \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_1_1_connect_thread}{Connect\+Thread}} type object. 
+
+Extends \href{https://developer.android.com/reference/java/lang/Thread}{\texttt{ Thread}} 
+
+Definition at line 60 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+cancel\+Threads(), and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+start\+Client().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a1f2c2b64f295ad5a140117c80badf1a3}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a1f2c2b64f295ad5a140117c80badf1a3}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!mContext@{mContext}}
+\index{mContext@{mContext}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{mContext}{mContext}}
+{\footnotesize\ttfamily Context com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Context\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+
+
+Reference to the Activity where the \mbox{\hyperlink{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service}{My\+Bluetooth\+Service}} object instance is created. 
+
+Services, such as this one, require a Context from the Activity that creates an object of its type to hook it to that Activity and provide it access to the application specific resources. 
+
+Definition at line 38 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+My\+Bluetooth\+Service(), and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+start\+Client().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_acbeff244a484a9612a10b3e4593a6f06}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_acbeff244a484a9612a10b3e4593a6f06}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!mmDevice@{mmDevice}}
+\index{mmDevice@{mmDevice}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{mmDevice}{mmDevice}}
+{\footnotesize\ttfamily Bluetooth\+Device com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+mm\+Device\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Represents a remote Bluetooth device. 
+
+A Bluetooth\+Device lets you create a connection with the respective device or query information about it, such as the name, address, class, and bonding state. 
+
+Definition at line 67 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+Connect\+Thread(), and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+run().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a1f5fa22394eccd230fd326300f28d2ea}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a1f5fa22394eccd230fd326300f28d2ea}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!mProgressDialog@{mProgressDialog}}
+\index{mProgressDialog@{mProgressDialog}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{mProgressDialog}{mProgressDialog}}
+{\footnotesize\ttfamily Progress\+Dialog com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+m\+Progress\+Dialog\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+A progress dialog. 
+
+A dialog showing a progress indicator and an optional text message or view. Only a text message or a view can be used at the same time. 
+
+Definition at line 50 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+Connected\+Thread(), com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+run(), and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+start\+Client().
+
+\mbox{\Hypertarget{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a7e1fa17e5ffe90b814cba6b5cdc8ac9a}\label{classcom_1_1unity3d_1_1player_1_1_my_bluetooth_service_a7e1fa17e5ffe90b814cba6b5cdc8ac9a}} 
+\index{com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}!TAG@{TAG}}
+\index{TAG@{TAG}!com.unity3d.player.MyBluetoothService@{com.unity3d.player.MyBluetoothService}}
+\doxysubsubsection{\texorpdfstring{TAG}{TAG}}
+{\footnotesize\ttfamily final String com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+T\+AG = \char`\"{}D\+E\+B\+U\+G\+\_\+\+B\+L\+U\+E\+T\+O\+O\+T\+H\+\_\+\+S\+E\+R\+V\+I\+CE\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Debugging tool 
+
+Definition at line 73 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+cancel(), com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+cancel\+Threads(), com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+connected(), com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+Connected\+Thread(), com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+Connect\+Thread(), com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+run(), com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+run(), and com.\+unity3d.\+player.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+write().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_my_bluetooth_service_8java}{My\+Bluetooth\+Service.\+java}}\end{DoxyCompactItemize}

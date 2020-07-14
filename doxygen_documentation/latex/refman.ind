@@ -1,0 +1,311 @@
+\begin{theindex}
+
+  \item {ADMIN\_INTENT}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{44}
+  \item {ANGRY}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{44}
+  \item {audioManager}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{44}
+
+  \indexspace
+
+  \item {backgroundColor}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{44}
+  \item {beginConnection}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{31}
+  \item {bluetoothAdapter}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{26}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{45}
+  \item {breakUpString}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{23}
+
+  \indexspace
+
+  \item {cancel}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{15}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectThread}, 
+		\hyperpage{19}
+  \item {cancelThreads}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{23}
+  \item {changeBackgroundColorFunction}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{45}
+  \item {com}, \hyperpage{11}
+  \item {com.unity3d}, \hyperpage{11}
+  \item {com.unity3d.player}, \hyperpage{11}
+  \item {com.unity3d.player.MyAdminReceiver}, \hyperpage{20}
+  \item {com.unity3d.player.MyBluetoothService}, \hyperpage{21}
+    \subitem {bluetoothAdapter}, \hyperpage{26}
+    \subitem {breakUpString}, \hyperpage{23}
+    \subitem {cancelThreads}, \hyperpage{23}
+    \subitem {connected}, \hyperpage{24}
+    \subitem {mConnectedThread}, \hyperpage{27}
+    \subitem {mConnectThread}, \hyperpage{27}
+    \subitem {mContext}, \hyperpage{27}
+    \subitem {messageProcessorFunction}, \hyperpage{24}
+    \subitem {mmDevice}, \hyperpage{27}
+    \subitem {mProgressDialog}, \hyperpage{28}
+    \subitem {MyBluetoothService}, \hyperpage{22}
+    \subitem {showToast}, \hyperpage{25}
+    \subitem {startClient}, \hyperpage{25}
+    \subitem {TAG}, \hyperpage{28}
+    \subitem {write}, \hyperpage{26}
+  \item {com.unity3d.player.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{13}
+    \subitem {cancel}, \hyperpage{15}
+    \subitem {ConnectedThread}, \hyperpage{14}
+    \subitem {mmInStream}, \hyperpage{16}
+    \subitem {mmOutStream}, \hyperpage{16}
+    \subitem {mmSocket}, \hyperpage{17}
+    \subitem {run}, \hyperpage{15}
+    \subitem {write}, \hyperpage{16}
+  \item {com.unity3d.player.MyBluetoothService.ConnectThread}, 
+		\hyperpage{17}
+    \subitem {cancel}, \hyperpage{19}
+    \subitem {ConnectThread}, \hyperpage{18}
+    \subitem {mmSocket}, \hyperpage{20}
+    \subitem {run}, \hyperpage{19}
+  \item {com.unity3d.player.UnityPlayerActivity}, \hyperpage{29}
+    \subitem {ADMIN\_INTENT}, \hyperpage{44}
+    \subitem {ANGRY}, \hyperpage{44}
+    \subitem {audioManager}, \hyperpage{44}
+    \subitem {backgroundColor}, \hyperpage{44}
+    \subitem {beginConnection}, \hyperpage{31}
+    \subitem {bluetoothAdapter}, \hyperpage{45}
+    \subitem {changeBackgroundColorFunction}, \hyperpage{45}
+    \subitem {emotionBackgroundColor}, \hyperpage{32}
+    \subitem {eyebrowsObject}, \hyperpage{45}
+    \subitem {eyelidsObject}, \hyperpage{45}
+    \subitem {falseString}, \hyperpage{46}
+    \subitem {goToSleepFunction}, \hyperpage{46}
+    \subitem {handler}, \hyperpage{46}
+    \subitem {HAPPY}, \hyperpage{46}
+    \subitem {IDLE}, \hyperpage{47}
+    \subitem {MAC\_ADDRESS}, \hyperpage{47}
+    \subitem {mainCameraObject}, \hyperpage{47}
+    \subitem {mBTStateBroadcastReceiver}, \hyperpage{47}
+    \subitem {mComponentName}, \hyperpage{48}
+    \subitem {mDevicePolicyManager}, \hyperpage{48}
+    \subitem {mouthObject}, \hyperpage{49}
+    \subitem {mUnityPlayer}, \hyperpage{49}
+    \subitem {MY\_UUID}, \hyperpage{49}
+    \subitem {myBluetoothService}, \hyperpage{50}
+    \subitem {onActivityResult}, \hyperpage{33}
+    \subitem {onConfigurationChanged}, \hyperpage{33}
+    \subitem {onCreate}, \hyperpage{34}
+    \subitem {onDestroy}, \hyperpage{36}
+    \subitem {onLowMemory}, \hyperpage{37}
+    \subitem {onNewIntent}, \hyperpage{37}
+    \subitem {onPause}, \hyperpage{38}
+    \subitem {onResume}, \hyperpage{38}
+    \subitem {onTrimMemory}, \hyperpage{38}
+    \subitem {onWindowFocusChanged}, \hyperpage{39}
+    \subitem {ouchZoneObject}, \hyperpage{50}
+    \subitem {REQUEST\_ENABLE\_BT}, \hyperpage{50}
+    \subitem {SAD}, \hyperpage{51}
+    \subitem {savedVolume}, \hyperpage{51}
+    \subitem {setEmotion}, \hyperpage{39}
+    \subitem {setEmotionFunction}, \hyperpage{51}
+    \subitem {setEyePokeEnabledStateFunction}, \hyperpage{51}
+    \subitem {setSpeakingFunction}, \hyperpage{52}
+    \subitem {settingsUpdate}, \hyperpage{41}
+    \subitem {showToastMethod}, \hyperpage{42}
+    \subitem {speakOut}, \hyperpage{42}
+    \subitem {startSpeaking}, \hyperpage{52}
+    \subitem {stopSpeaking}, \hyperpage{52}
+    \subitem {SURPRISED}, \hyperpage{52}
+    \subitem {TAG}, \hyperpage{53}
+    \subitem {tearObject}, \hyperpage{53}
+    \subitem {TESTING}, \hyperpage{53}
+    \subitem {textToSpeech}, \hyperpage{53}
+    \subitem {trueString}, \hyperpage{54}
+    \subitem {updateUnityCommandLineArguments}, \hyperpage{43}
+    \subitem {voiceYourEmotion}, \hyperpage{54}
+  \item {connected}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{24}
+  \item {ConnectedThread}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{14}
+  \item {ConnectThread}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectThread}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {emotionBackgroundColor}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{32}
+  \item {eyebrowsObject}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{45}
+  \item {eyelidsObject}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{45}
+
+  \indexspace
+
+  \item {falseString}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{46}
+
+  \indexspace
+
+  \item {goToSleepFunction}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{46}
+
+  \indexspace
+
+  \item {handler}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{46}
+  \item {HAPPY}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{46}
+
+  \indexspace
+
+  \item {IDLE}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{47}
+
+  \indexspace
+
+  \item {MAC\_ADDRESS}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{47}
+  \item {mainCameraObject}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{47}
+  \item {mBTStateBroadcastReceiver}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{47}
+  \item {mComponentName}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{48}
+  \item {mConnectedThread}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{27}
+  \item {mConnectThread}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{27}
+  \item {mContext}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{27}
+  \item {mDevicePolicyManager}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{48}
+  \item {messageProcessorFunction}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{24}
+  \item {mmDevice}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{27}
+  \item {mmInStream}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{16}
+  \item {mmOutStream}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{16}
+  \item {mmSocket}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{17}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectThread}, 
+		\hyperpage{20}
+  \item {mouthObject}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{49}
+  \item {mProgressDialog}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{28}
+  \item {mUnityPlayer}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{49}
+  \item {MY\_UUID}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{49}
+  \item {MyAdminReceiver.java}, \hyperpage{55}
+  \item {MyBluetoothService}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{22}
+  \item {myBluetoothService}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{50}
+  \item {MyBluetoothService.java}, \hyperpage{55}
+
+  \indexspace
+
+  \item {onActivityResult}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{33}
+  \item {onConfigurationChanged}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{33}
+  \item {onCreate}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{34}
+  \item {onDestroy}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{36}
+  \item {onLowMemory}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{37}
+  \item {onNewIntent}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{37}
+  \item {onPause}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{38}
+  \item {onResume}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{38}
+  \item {onTrimMemory}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{38}
+  \item {onWindowFocusChanged}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{39}
+  \item {ouchZoneObject}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{50}
+
+  \indexspace
+
+  \item {README.md}, \hyperpage{56}
+  \item {REQUEST\_ENABLE\_BT}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{50}
+  \item {run}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{15}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectThread}, 
+		\hyperpage{19}
+
+  \indexspace
+
+  \item {SAD}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{51}
+  \item {savedVolume}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{51}
+  \item {setEmotion}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{39}
+  \item {setEmotionFunction}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{51}
+  \item {setEyePokeEnabledStateFunction}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{51}
+  \item {setSpeakingFunction}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{52}
+  \item {settingsUpdate}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{41}
+  \item {showToast}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{25}
+  \item {showToastMethod}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{42}
+  \item {speakOut}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{42}
+  \item {startClient}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{25}
+  \item {startSpeaking}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{52}
+  \item {stopSpeaking}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{52}
+  \item {SURPRISED}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{52}
+
+  \indexspace
+
+  \item {TAG}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{28}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{53}
+  \item {tearObject}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{53}
+  \item {TESTING}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{53}
+  \item {textToSpeech}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{53}
+  \item {trueString}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{54}
+
+  \indexspace
+
+  \item {UnityPlayerActivity.java}, \hyperpage{56}
+  \item {updateUnityCommandLineArguments}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{43}
+
+  \indexspace
+
+  \item {voiceYourEmotion}
+    \subitem {com.unity3d.player.UnityPlayerActivity}, \hyperpage{54}
+
+  \indexspace
+
+  \item {write}
+    \subitem {com.unity3d.player.MyBluetoothService}, \hyperpage{26}
+    \subitem {com.unity3d.player.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{16}
+
+\end{theindex}
